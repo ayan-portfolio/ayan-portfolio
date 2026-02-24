@@ -8,7 +8,6 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname)));
 
-// Ayan's secure MongoDB Vault Coordinates
 const mongoURI = 'mongodb+srv://ayan-admin:2025bcla12%40kristujayanti.com@cluster0.c2y9jgu.mongodb.net/ayan-logs?retryWrites=true&w=majority'; 
 
 mongoose.connect(mongoURI)

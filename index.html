@@ -10,25 +10,22 @@
     <div class="glass-container">
         <header>
             <h1 id="typing-text"></h1>
-            <p class="subtitle">BCA | Cloud Computing | Full-Stack Architect</p>
         </header>
 
-        <section class="about-section">
-            <h2>The Architect</h2>
-            <p>I engineer scalable web applications and robust cloud architectures. Whether it's crafting slick CSS animations or wiring up heavy-duty Node.js and database backends, I bring digital concepts into reality.</p>
+        <section class="about-section" style="text-align: left; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 15px; margin-bottom: 20px;">
+            <p style="font-size: 1.1rem; line-height: 1.8; margin: 0;">
+                <strong>Ayan Dev P P</strong><br><br>
+                I am a <strong>BCA Student & Full-Stack Developer</strong> passionate about <strong>Cloud Computing and modern Web Architecture</strong>.<br><br>
+                I have skills in <strong>Node.js, MongoDB, AWS DynamoDB, Python, and Advanced CSS</strong>.<br><br>
+                I have worked on <strong>engineering custom full-stack portfolio architectures</strong>, which helped me develop <strong>secure database management and cloud deployment strategies</strong>.<br><br>
+                My goal is to become a <strong>Senior Cloud Architect</strong> and continuously improve my backend engineering knowledge.
+            </p>
         </section>
 
-        <section class="skills-section">
-            <h2>Technical Arsenal</h2>
-            <div class="skills-grid">
-                <span class="skill-badge">Node.js</span>
-                <span class="skill-badge">MongoDB</span>
-                <span class="skill-badge">AWS DynamoDB</span>
-                <span class="skill-badge">Advanced CSS</span>
-            </div>
-        </section>
-
-        <button class="contact-btn" onclick="initiateContact()">Initialize Secure Comms</button>
+        <div class="comms-terminal">
+            <input type="text" id="visitor-message" placeholder="Type a message for Ayan..." required>
+            <button class="contact-btn" onclick="sendMessage()">Send to Vault</button>
+        </div>
     </div>
     
     <script src="script.js"></script>

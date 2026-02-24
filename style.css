@@ -22,35 +22,10 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
-h1 { color: #00e5ff; min-height: 40px; margin-bottom: 5px; }
-
-h2 {
-    color: #ffffff;
-    font-size: 1.2rem;
-    border-bottom: 1px solid rgba(0, 229, 255, 0.3);
-    padding-bottom: 5px;
-    display: inline-block;
-}
-
-.subtitle { color: #a0aec0; margin-bottom: 30px; letter-spacing: 1px; font-size: 0.9rem; }
-
-.skills-grid {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    margin-top: 15px;
-}
-
-.skill-badge {
-    background: rgba(0, 229, 255, 0.1);
+h1 {
     color: #00e5ff;
-    border: 1px solid #00e5ff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 0.85em;
-    font-weight: bold;
+    min-height: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-btn {
@@ -67,4 +42,35 @@ h2 {
 .contact-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 229, 255, 0.4);
+}
+
+/* NEW: Styling the text input box */
+#visitor-message {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 229, 255, 0.5);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#visitor-message::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#visitor-message:focus {
+    border-color: #00e5ff;
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
+}
+
+.comms-terminal {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
