@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname)));
 
-const mongoURI = 'mongodb+srv://ayan-admin:2025bcla12%40kristujayanti.com@ayancluster.xxxx.mongodb.net/ayan-logs?retryWrites=true&w=majority'; 
+const mongoURI = 'mongodb+srv://ayan-admin:ayan_dev6833@ayancluster.dk7euae.mongodb.net/ayan-logs?retryWrites=true&w=majority';
 
 mongoose.connect(mongoURI)
     .then(() => console.log("Connected to MongoDB! Ayan's Vault is secure."))
