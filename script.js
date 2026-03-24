@@ -23,7 +23,7 @@ function sendMessage() {
     }
 
     // Fire their specific text to the backend engine
-    fetch('/api/message', {
+    fetch('https://ayan-cloud-engine.onrender.com/api/message', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userInput }) // Injecting their text here!
