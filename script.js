@@ -1,5 +1,5 @@
 // Part 1: The Visual Charm (Typing Effect)
-const text = "Hi, I'm Ayan.";
+const text = "Hi, I'm Ayan Dev";
 let i = 0;
 
 function typeWriter() {
